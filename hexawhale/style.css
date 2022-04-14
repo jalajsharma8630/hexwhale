@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homebanner {
+    width: 100%;
+    height: 90vh;
+    background-color: #F8F8F8;
+    padding: 0px 50px;
+
+}
+
+.logoimg {
+    width: 12rem;
+}
+
+.Vision {
+    color: #50C878;
+}
+
+h6 {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bannerdesign {
+    width: 100%;
+    height: 75vh;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.bannerdata {
+    width: 50%;
+    height: 75vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.rightbannerdata {
+    width: 50%;
+    height: 75vh;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+
+}
+
+.rightbannerdata>img {
+    width: 100%;
+}
+
+.pera {
+    padding: 15px 0px;
+    font-size: 13px;
+    color: #989898;
+}
+
+.cardpera {
+    font-size: 13px;
+    color: #989898;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.pera2 {
+    padding: 0px 150px;
+    font-size: 14px;
+    color: #989898;
+}
+
+.bannerbtn {
+    padding: 12px 40px;
+    background: #000080;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bannerbtn:hover {
+    text-decoration: none;
+    color: #000080;
+    background-color: #fff;
+    border: 2px solid #000080;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+
+
+/* brands partner  */
+.partners {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 120px;
+}
+
+.partners>img {
+    width: 190px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* our works css */
+.ourworks {
+    width: 100%;
+    height: 100vh;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.cardcontainer {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardcontainer2 {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mycard {
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.mycard3 {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.mycard2 {
+    border-right: 1px solid #E0E0E0;
+}
+
+
+
+
+/* homepage about us  */
+.about {
+    width: 100%;
+    height: 90vh;
+    background-color: #f0fffa91;
+    display: flex;
+    align-items: center;
+}
+
+.aboutimg {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    /* background-color: #000080; */
+}
+
+.aboutcontent {
+    width: 50%;
+    height: 70vh;
+    /* background-color: tomato; */
+    padding: 30px 50px;
+}
+
+.aboutimg>img {
+    width: 80%;
+    height: 60vh;
+    /* object-fit: contain; */
+}
+
+.aboutpera {
+    font-size: 14px;
+    color: #989898;
+    padding: 15px 0px;
+}
+
+.aboutbtn {
+    padding: 12px 60px;
+    background: #fff;
+    color: #000080;
+    border: 2px solid #000080;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.aboutbtn:hover {
+    color: #fff;
+    background-color: #000080;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* offer section css */
+.offer {
+    width: 100%;
+    height: 70vh;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+
+.offerimg {
+    width: 50%;
+    height: auto;
+    display: flex;
+
+}
+
+.offerimg>img {
+    width: 100%;
+    height: 60vh;
+    /* object-fit: contain; */
+}
+
+.offercontent {
+    width: 50%;
+    height: 60vh;
+    /* background-color: tomato; */
+    padding: 50px 50px;
+}
+
+.offerlist {
+    list-style-type: circle;
+    font-size: 14px;
+    padding: 20px;
+    color: #989898;
+    font-weight: 600;
+}
+
+/* jurney sec  */
+.jurney {
+    width: 100%;
+    height: 80vh;
+    background-color: #0029a3;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 48% 94%, 0 100%); */
+    padding: 10px 50px;
+    display: flex;
+  
+}
+.journeycontnt{
+    width: 50%;
+    height: 70vh;
+    /* background-color: coral; */
+   padding-top: 130px;
+   padding-left: 100px;
+}
+.journeyleft{
+    width: 50%;
+    height: 70vh;
+    /* background-color: crimson; */
+}
+
+.author >img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50%;
+}
+.manfirst{
+    width: 100%;
+    /* background-color: #50C878; */
+}
+.mansec{
+   /* background-color: #989898; */
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17rem;
+ 
+}
+.manfirst >img{
+    width: 120px;
+    height: 120px;
+    margin-left: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mansec >img{
+    width: 140px;
+  height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.manthird{
+    margin: 30px;
+}
+
+.manthird >img{
+    width: 140px;
+  height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#whalehide1 {
+    display: none;
+}
+.hide{
+    display: block;
+}
+.hidedex{
+    display: none;
+}
+
+
+@media (max-width: 952px) {
+
+    .lastpartner {
+        display: none;
+    }
+
+    .homebanner {
+        width: 100%;
+        height: auto;
+        background-color: #F8F8F8;
+        padding: 0px 0px;
+        /* background-color: #000080; */
+    }
+
+    .pera2 {
+        padding: 0px 0px;
+        font-size: 14px;
+        color: #989898;
+    }
+
+    .aboutimg>img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        /* background: aqua; */
+        display: block;
+    }
+
+    .aboutimg {
+        width: 100%;
+        height: auto;
+        /* background-color: #000080; */
+    }
+
+    .aboutcontent {
+        width: 100%;
+        height: auto;
+        /* background-color: tomato; */
+        padding: 15px 15px;
+    }
+
+    .offer {
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+    .offerimg {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .offerimg>img {
+        width: 100%;
+        height: 60vh;
+        object-fit: contain;
+    }
+
+    .offercontent {
+        width: 100%;
+        height: auto;
+        /* background-color: tomato; */
+        padding: 35px 15px;
+    }
+    .hide{
+        display: none;
+    }
+}
+
+@media (max-width: 858px) {
+    .partners {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+
+    .lastpartner {
+        display: none;
+    }
+
+    .partners>img {
+        width: 95%;
+        height: 25vh;
+        margin: 9px 10px;
+        border: 1px solid #989898;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .pera2 {
+        padding: 0px 0px;
+        font-size: 14px;
+        color: #989898;
+    }
+
+    .ourworks {
+        width: 100%;
+        height: auto;
+        /* background-color: #50C878; */
+        margin: 50px 0px;
+    }
+
+    .cardcontainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 8px;
+    }
+
+    .mycard,
+    .mycard2,
+    .mycard3,
+    .mycar {
+        border: 1px solid #E0E0E0;
+        height: auto;
+        margin: 17px;
+        width: 100%;
+    }
+
+    .bannerdata {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #whalehide {
+        display: none;
+    }
+
+    #whalehide1 {
+        display: block;
+    }
+
+    .rightbannerdata {
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerdesign {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .cardcontainer2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 8px;
+    }
+    .jurney {
+        width: 100%;
+        height: auto;
+        background-color: #0033cc;
+        display: block;
+        padding: 10px 15px;
+    }
+    .journeycontnt {
+        width: 100%;
+        height: auto;
+        /* background-color: coral; */
+        padding: 0px;
+    }
+    .journeyleft {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        /* background-color: crimson; */
+    }
+    .mansec {
+        padding-top: 0px;
+        padding-right: 0rem;
+    }
+    .manfirst >img {
+        width: 140px;
+        height: 140px;
+        margin-left: 0rem;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+    .mansec >img {
+        width: 140px;
+        height: 140px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+    .manfirst {
+        width: 100%;
+        text-align: center;
+        /* background-color: #50C878; */
+    }
+    .manthird{
+        margin: 0px;
+    }
+}
